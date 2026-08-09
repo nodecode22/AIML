@@ -126,7 +126,7 @@ Q10 Number Guessing Game
 •
 "Too low" if the guess is below
 •
-"Correct!" if the guess matches
+"Correct!" if the guess matcheskwbkjwbcvivb
 """
 
 secret_number=26
