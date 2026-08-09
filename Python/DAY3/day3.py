@@ -166,7 +166,7 @@ print(f"The sum of all values: {sum}")
 
 # tuple functions or methods
 
-# t.index(element) is udes to find index of the element
+# t.index(element) is used to find index of the element
 
 print(b.index(3))
 
