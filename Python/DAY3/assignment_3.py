@@ -47,20 +47,83 @@
 # x1.sort()
 # print(x1)
 
-# Given a tuple of integers, create:
-# • A tuple of all even numbers
-# • A tuple of all odd numbers
+# # Given a tuple of integers, create:
+# # • A tuple of all even numbers
+# # • A tuple of all odd numbers
 
-t1=(1,2,3,4,5,6,7,8,9,10)
+# t1=(1,2,3,4,5,6,7,8,9,10)
 
-t_even=()
-t_odd=()
+# t_even=()
+# t_odd=()
 
-for num in t1:
-    if num % 2 == 0:
-        t_even += (num,)
+# for num in t1:
+#     if num % 2 == 0:
+#         t_even += (num,)
+#     else:
+#         t_odd += (num,)
+
+# print("Even numbers:", t_even)
+# print("Odd numbers:", t_odd)
+
+
+# #Create a dictionary where:
+# • Keys = student names
+# • Values = marks (integer)
+# Write a menu-based program where user presses a key (’A’, ‘B’, ‘C’, ‘D’)
+# depending on the operation they want to perform on the dictionary:
+# 1. A - Add a student
+# 2. B - Update marks
+# 3. C - Search for a student
+# 4. D - Display all students and marks
+
+student={}
+
+def Add_student():
+    name=input("Enter the name: ")
+    marks=int(input("Enter marks: "))
+    student.update({name:marks})
+    
+
+def marks_updt():
+    name=input("enter the student name whose marks you wanna change: ")
+    if name in student:
+        marks=int(input("Enter the marks: "))
+        student[name]=marks
+        
     else:
-        t_odd += (num,)
-
-print("Even numbers:", t_even)
-print("Odd numbers:", t_odd)
+        print("Sorry this entity does not exist!!")
+        
+def search():
+    name=input("enter the student name to check: ")
+    if name in student:
+        print(f"the stduent {name} having marks {student[name]}")
+        
+    else:
+        print("Sorry this stduent does not exist!!")
+        
+def display():
+    print(student.items())
+    print("")
+while True:
+    print("A - Add a student\nB - Update marks\nC - Search for a student\nD - Display all students and marks")
+    value=input("Enter the option:(A,B,C,D): ")
+    if (value=='A'or value=='a'):
+        Add_student()
+        
+    elif (value=='B' or value=='b'):
+        marks_updt()
+        
+    elif (value=='c' or value=='C'):
+        search()
+        
+    elif (value=='d' or value=='D'):
+        display()
+        
+    else:
+        print("Wrong input Try again")
+        continue
+    x=input("Do you want to continue?(Y/N): ")
+    if(x=='Y' or x=='y'):
+        continue
+    else:
+        break
