@@ -1,69 +1,69 @@
-# #1 Ask the user for a string and check whether it is a palindrome or not. A palindrome is a string which is same when we read it forward & backward. Eg - “madam”, “racecar” etc.
+#1 Ask the user for a string and check whether it is a palindrome or not. A palindrome is a string which is same when we read it forward & backward. Eg - “madam”, “racecar” etc.
 
-# x=input("Enter a string to check whether it is palindrome or not: ")
-# s=[]
-# for i in x:
-#     s.append(i)
+x=input("Enter a string to check whether it is palindrome or not: ")
+s=[]
+for i in x:
+    s.append(i)
 
-# s.reverse()
-# new_string=""
-# for i in s:
-#     new_string+=i
+s.reverse()
+new_string=""
+for i in s:
+    new_string+=i
 
-# if x==new_string:
-#     print("This is a palindroome string!!")
-# else:
-#     print("This is not a palindrome string!!")
-
-
-# #2. Given a list of integers compute the average of all numbers in the list
-
-# list1=[12,2,22,4,57,8,97]
-# sum=0
-# for i in list1:
-#     sum+=i
-# print(f"the Average of elements of the list is {sum/len(list1)}")
+if x==new_string:
+    print("This is a palindroome string!!")
+else:
+    print("This is not a palindrome string!!")
 
 
-# #3.  Input two lists of integers from the user. Merge them into one list and sort the result.
-# q=int(input("Enter number of elements: "))
+#2. Given a list of integers compute the average of all numbers in the list
 
-# x1=[]
-# x2=[]
+list1=[12,2,22,4,57,8,97]
+sum=0
+for i in list1:
+    sum+=i
+print(f"the Average of elements of the list is {sum/len(list1)}")
 
-# for i in range(0,q):
-#     print(f"Enter the value for list1 element at index {i}")
-#     c=int(input("Enter the value: "))
-#     x1.append(c)
 
-# for i in range(0,q):
-#     print(f"Enter the value for list2 element at index {i}")
-#     c=int(input("Enter the value: "))
-#     x2.append(c)
+#3.  Input two lists of integers from the user. Merge them into one list and sort the result.
+q=int(input("Enter number of elements: "))
 
-# for i in x2:
-#     x1.append(i)
+x1=[]
+x2=[]
 
-# x1.sort()
-# print(x1)
+for i in range(0,q):
+    print(f"Enter the value for list1 element at index {i}")
+    c=int(input("Enter the value: "))
+    x1.append(c)
 
-# # Given a tuple of integers, create:
-# # • A tuple of all even numbers
-# # • A tuple of all odd numbers
+for i in range(0,q):
+    print(f"Enter the value for list2 element at index {i}")
+    c=int(input("Enter the value: "))
+    x2.append(c)
 
-# t1=(1,2,3,4,5,6,7,8,9,10)
+for i in x2:
+    x1.append(i)
 
-# t_even=()
-# t_odd=()
+x1.sort()
+print(x1)
 
-# for num in t1:
-#     if num % 2 == 0:
-#         t_even += (num,)
-#     else:
-#         t_odd += (num,)
+# Given a tuple of integers, create:
+# • A tuple of all even numbers
+# • A tuple of all odd numbers
 
-# print("Even numbers:", t_even)
-# print("Odd numbers:", t_odd)
+t1=(1,2,3,4,5,6,7,8,9,10)
+
+t_even=()
+t_odd=()
+
+for num in t1:
+    if num % 2 == 0:
+        t_even += (num,)
+    else:
+        t_odd += (num,)
+
+print("Even numbers:", t_even)
+print("Odd numbers:", t_odd)
 
 
 # #Create a dictionary where:
