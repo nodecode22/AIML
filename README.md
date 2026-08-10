@@ -25,7 +25,7 @@ applications.
 -   [✅] Functions
 -   [✅] Strings
 -   [✅] Lists, Tuples, Sets & Dictionaries
--   [ ] File Handling
+-   [✅] File Handling
 -   [ ] Exception Handling
 -   [ ] Object-Oriented Programming
 -   [ ] Modules & Packages
