@@ -1,6 +1,6 @@
 # create a bank account class with attributes account_number,owner_name,and balance
 # add methods to deposit, withdraw, and check balance
-
+from abc import ABC, abstractmethod
 class BankAccount:
     def __init__(self,acc_no,name,bal):
         self.acc_no=acc_no
@@ -145,3 +145,114 @@ print(c1.brand,c1.model,c1.seats)
 b1=Bike(770,"TVS","jupiter")
 print(b1.brand,b1.model,b1.cc)
 
+
+"""Create an  abstract class employee with an abstract method
+calculate_salary(). Create subclasses intern, fulltimeemployee, and contract employee that implement the method differently."""
+
+class Employee(ABC):
+    @abstractmethod
+    def calculate_salary(self):
+        pass
+class Intern(Employee):
+    def calculate_salary(self):
+        return 15000
+class FullTimeEmployee(Employee):
+    def calculate_salary(self):
+        return 50000
+class ContractEmployee(Employee):
+    def calculate_salary(self):
+        return 40000
+
+i1=Intern()
+print(i1.calculate_salary())
+
+e1=FullTimeEmployee()
+print(e1.calculate_salary())
+
+c1=ContractEmployee()
+print(c1.calculate_salary())
+
+"""
+Create a class Person that allows the constructor to work with:
+• name only
+• name + age
+• name + age + address
+As direct constructor overloading (multiple constructors) are not allowed but
+we have to use default parameters to simulate constructor overloading.
+
+"""
+
+class Person:
+    def __init__(self,name,age=None,Address=None):
+        self.name=name
+        self.age=age
+        self.Address=Address
+
+    def display(self):
+        print("Name:",self.name)
+        print("Age:",self.age)
+        print("Address:",self.Address)
+
+p1=Person("Saurabh")
+p1.display()
+
+p2=Person("Saurabh",21)
+p2.display()
+
+p3=Person("Saurabh",21,"Jamshedpur")
+p3.display()
+
+"""Create a class Player with:
+• a class variable player_count
+• instance variables name and level
+Track how many players were created."""
+
+class Player:
+    player_count=0
+
+    def __init__(self,name,level):
+        self.name=name
+        self.level=level
+        Player.player_count+=1
+
+    def get_count(self):
+        print("Total player:",Player.player_count)
+    
+p1=Player("Saurabh","state")
+p1.get_count()
+
+
+"""Create the following classes: Herbivore, carnivore, Omnivore with some
+attributes & methods. Then create a class Bear that inherits from all the above
+classes to showcase how multiple inheritance works."""
+
+class Herbivore:
+
+    def __init__(self):
+        print("Its eats only grass!!")
+
+    def get_infoh(self):
+        print("animals like horse,rabbit etc are Herbivores.")
+
+class Carnivore:
+    def __init__(self):
+        print("It eats only meat!!")
+    def get_infoc(self):
+        print("Animals like Lion, Tiger etc are Carnivores.")
+
+class Omnivore:
+    def __init__(self):
+        print("It eats both grass and meat!!")
+    def get_infoo(self):
+        print("Animals like cat, dog etc are Omnivores.")
+ 
+class Bear(Omnivore,Herbivore,Carnivore):
+
+    def __init__(self):
+        print("its a bear it is Omnivores!!")
+
+
+bear1=Bear()
+bear1.get_infoo()
+bear1.get_infoc()
+bear1.get_infoh()
