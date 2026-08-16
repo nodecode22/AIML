@@ -1,23 +1,23 @@
 # 🚀 My AI/ML Journey
 
-> **Documenting my Artificial Intelligence & Machine Learning journey
-> --- Day by Day.**
+> Documenting my Artificial Intelligence & Machine Learning journey
+> --- Day by Day.
 
-Welcome to my **AI/ML Journey**!\
+Welcome to my AI/ML Journey!\
 This repository is a personal learning log where I will document what I
 learn, the concepts I practice, the projects I build, and the
-technologies I explore **day by day**.
+technologies I explore day by day.
 
-My goal is to build a strong foundation in **Python → Data Science →
+My goal is to build a strong foundation in Python → Data Science →
 Machine Learning → Deep Learning → NLP → Generative AI → LLMs →
-Deployment** and gradually become capable of building real-world AI/ML
+Deployment and gradually become capable of building real-world AI/ML
 applications.
 
 ------------------------------------------------------------------------
 
 ## 🎯 My Learning Roadmap
 
-### 🐍 1. Python & Programming Foundations
+ 🐍 1. Python & Programming Foundations
 
 -   [✅] Python Basics
 -   [✅] Variables & Data Types
@@ -25,7 +25,8 @@ applications.
 -   [✅] Functions
 -   [✅] Strings
 -   [✅] Lists, Tuples, Sets & Dictionaries
--   [✅] File Handling
+-   [✅] OOPs concept 
+-   [ ] File Handling
 -   [ ] Exception Handling
 -   [ ] Object-Oriented Programming
 -   [ ] Modules & Packages
@@ -34,7 +35,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🧹 2. Data Pre-processing
+ 🧹 2. Data Pre-processing
 
 -   [ ] Data Collection
 -   [ ] Data Cleaning
@@ -49,7 +50,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 📊 3. Data Visualization
+ 📊 3. Data Visualization
 
 -   [ ] Matplotlib
 -   [ ] Seaborn
@@ -63,7 +64,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🧮 4. Mathematics for AI/ML
+ 🧮 4. Mathematics for AI/ML
 
 -   [ ] Basic Mathematics
 -   [ ] Statistics
@@ -80,7 +81,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🤖 5. Machine Learning
+ 🤖 5. Machine Learning
 
 -   [ ] What is Machine Learning?
 -   [ ] Supervised Learning
@@ -91,7 +92,7 @@ applications.
 -   [ ] Clustering
 -   [ ] Association
 
-#### Supervised Learning
+# Supervised Learning
 
 -   [ ] Linear Regression
 -   [ ] Multiple Linear Regression
@@ -102,7 +103,7 @@ applications.
 -   [ ] Random Forest
 -   [ ] Naive Bayes
 
-#### Unsupervised Learning
+# Unsupervised Learning
 
 -   [ ] K-Means Clustering
 -   [ ] Hierarchical Clustering
@@ -112,7 +113,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 📈 6. Model Evaluation
+ 📈 6. Model Evaluation
 
 -   [ ] Confusion Matrix
 -   [ ] Accuracy
@@ -130,7 +131,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🧠 7. Deep Learning
+ 🧠 7. Deep Learning
 
 -   [ ] Neural Networks
 -   [ ] Perceptron
@@ -149,7 +150,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 👁️ 8. Computer Vision
+ 👁️ 8. Computer Vision
 
 -   [ ] Image Processing Basics
 -   [ ] OpenCV
@@ -162,7 +163,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 📝 9. NLP --- Natural Language Processing
+ 📝 9. NLP --- Natural Language Processing
 
 -   [ ] Text Pre-processing
 -   [ ] Tokenization
@@ -179,7 +180,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### ✨ 10. Generative AI
+ ✨ 10. Generative AI
 
 -   [ ] Introduction to Generative AI
 -   [ ] Generative Models
@@ -194,7 +195,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🧠 11. LLMs --- Large Language Models
+ 🧠 11. LLMs --- Large Language Models
 
 -   [ ] What are LLMs?
 -   [ ] Transformer Architecture
@@ -209,7 +210,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🔎 12. RAG --- Retrieval Augmented Generation
+ 🔎 12. RAG --- Retrieval Augmented Generation
 
 -   [ ] What is RAG?
 -   [ ] Document Loading
@@ -223,7 +224,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🛠️ 13. AI/ML Development Tools
+ 🛠️ 13. AI/ML Development Tools
 
 -   [ ] Jupyter Notebook
 -   [ ] VS Code
@@ -239,7 +240,7 @@ applications.
 
 ------------------------------------------------------------------------
 
-### 🔥 14. TensorFlow & ML Frameworks
+ 🔥 14. TensorFlow & ML Frameworks
 
 -   [ ] TensorFlow
 -   [ ] Keras
@@ -255,24 +256,24 @@ applications.
 
 I will use the following format to document every learning day.
 
-### Day 01 --- `DD/MM/YYYY`
+ Day 01 --- `DD/MM/YYYY`
 
-**📚 Topics Learned** - Topic 1 - Topic 2 - Topic 3
+📚 Topics Learned - Topic 1 - Topic 2 - Topic 3
 
-**💡 What I Understood** \> Write a short explanation of the concepts
+💡 What I Understood \> Write a short explanation of the concepts
 learned today.
 
-**💻 Practice** - Problem/program practiced - Dataset used - Algorithm
+💻 Practice - Problem/program practiced - Dataset used - Algorithm
 implemented
 
-**🧪 Mini Task / Project** - What I built today - What technology I used
+🧪 Mini Task / Project - What I built today - What technology I used
 
-**❌ Mistakes / Problems** - Problem I faced - How I solved it
+❌ Mistakes / Problems - Problem I faced - How I solved it
 
-**📝 Key Takeaways** - Important point 1 - Important point 2 - Important
+📝 Key Takeaways - Important point 1 - Important point 2 - Important
 point 3
 
-**🔥 Today's Progress:** `⭐⭐⭐⭐⭐`
+🔥 Today's Progress: `⭐⭐⭐⭐⭐`
 
 ------------------------------------------------------------------------
 
@@ -280,7 +281,7 @@ point 3
 
   Area                   Progress
   ---------------------- ----------------
-  Python                 ⬜ Not Started
+  Python                 ✅ started
   Data Pre-processing    ⬜ Not Started
   Data Visualization     ⬜ Not Started
   Mathematics            ⬜ Not Started
@@ -305,7 +306,7 @@ point 3
 I will build projects alongside my learning instead of only studying
 theory.
 
-### 🟢 Beginner Projects
+ 🟢 Beginner Projects
 
 -   [ ] Student Performance Predictor
 -   [ ] House Price Predictor
@@ -313,7 +314,7 @@ theory.
 -   [ ] Movie Recommendation System
 -   [ ] Iris Flower Classification
 
-### 🟡 Intermediate Projects
+ 🟡 Intermediate Projects
 
 -   [ ] Sentiment Analysis
 -   [ ] Customer Churn Prediction
@@ -322,7 +323,7 @@ theory.
 -   [ ] Recommendation System
 -   [ ] End-to-End ML Web Application
 
-### 🔴 Advanced Projects
+ 🔴 Advanced Projects
 
 -   [ ] RAG-based Document Assistant
 -   [ ] AI Chatbot using LLM
@@ -335,9 +336,9 @@ theory.
 
 ## 📌 My Learning Principles
 
-1.  **Learn → Practice → Build → Document → Repeat**
-2.  Don't just watch tutorials --- **write code.**
-3.  Understand the **logic behind algorithms**, not just syntax.
+1.  Learn → Practice → Build → Document → Repeat
+2.  Don't just watch tutorials --- write code.
+3.  Understand the logic behind algorithms, not just syntax.
 4.  Build projects after learning each major concept.
 5.  Make mistakes and document how I solved them.
 6.  Revise old concepts regularly.
@@ -347,27 +348,27 @@ theory.
 
 ## 🌱 Journey Goal
 
-> **From writing my first Python programs to building and deploying
-> real-world AI systems.**
+> From writing my first Python programs to building and deploying
+> real-world AI systems.
 
 This repository is not about being perfect.
 
-It is about showing **consistent progress, learning from mistakes,
-building projects, and becoming better every day.**
+It is about showing consistent progress, learning from mistakes,
+building projects, and becoming better every day.
 
-### 🚀 One Day. One Concept. One Step Closer to AI/ML Mastery.
+ 🚀 One Day. One Concept. One Step Closer to AI/ML Mastery.
 
 ------------------------------------------------------------------------
 
 ## 📈 Journey Status
 
-**Current Stage:** 🐍 Python Foundations → Collections (Sets next)
+Current Stage: 🐍 Python Foundations → Collections (Sets next)
 
-**Learning Style:** `Theory + Coding + Projects + Documentation`
+Learning Style: `Theory + Coding + Projects + Documentation`
 
-**Goal:** `AI/ML Engineer`
+Goal: `AI/ML Engineer`
 
-**Status:** 🟢 **In Progress**
+Status: 🟢 In Progress
 
 ------------------------------------------------------------------------
 

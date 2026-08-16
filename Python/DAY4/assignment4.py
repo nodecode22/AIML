@@ -256,3 +256,4 @@ bear1=Bear()
 bear1.get_infoo()
 bear1.get_infoc()
 bear1.get_infoh()
+
