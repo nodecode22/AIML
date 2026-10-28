@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Department of Computer Science and Engineering</title>
+</head>
+<body>
+  <h1>Department of Computer Science and Engineering</h1>
+  <p>Established in 2005, the department offers B.Tech, M.Tech and Ph.D.
+  programmes, focusing on AI, data science, networking and software engineering.</p>
+
+  <img src="cse-block.jpg" alt="CSE academic block" width="480" height="300">
+
+  <p>
+    <a href="https://www.aicte-india.org/">AICTE</a> |
+    <a href="syllabus.html">Syllabus</a> |
+    <a href="#registration">Registration</a> |
+    <a href="mailto:hod.cse@college.edu">Mail HOD</a>
+  </p>
+
+  <h2>Programme Outcomes</h2>
+  <ol>
+    <li>Apply maths and computing fundamentals to engineering problems.</li>
+    <li>Design software systems that meet requirements.</li>
+    <li>Use modern tools effectively.</li>
+  </ol>
+
+  <h2>Laboratories</h2>
+  <ul>
+    <li>Programming Lab</li>
+    <li>DBMS Lab</li>
+    <li>Networks Lab</li>
+  </ul>
+
+  <h2>Faculty</h2>
+  <table border="1" cellpadding="6">
+    <tr><th>Name</th><th>Designation</th><th>Specialization</th></tr>
+    <tr><td>Dr. A. Mishra</td><td>Professor &amp; Head</td><td>Machine Learning</td></tr>
+    <tr><td>Mr. R. Kumar</td><td>Asst. Professor</td><td>Web Technology</td></tr>
+  </table>
+
+  <h2 id="registration">Student Registration Form</h2>
+  <form action="/register" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course">
+      <option>B.Tech CSE</option>
+      <option>M.Tech CSE</option>
+    </select><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+  </form>
+</body>
+</html>
